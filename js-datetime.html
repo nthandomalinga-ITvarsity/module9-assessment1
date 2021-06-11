@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <p id="output"></p>
+        <p id="output2"></p>
+        <script>
+        
+           var dt = new Date(2020, 2, 12, 5, 0);
+            
+            document.getElementById("output").innerHTML = dt;
+            
+            dt.setHours(11);
+            dt.setMinutes(25);
+            dt.setFullYear(2020);
+            document.getElementById("output").innerHTML = dt;
+            
+        </script>
+    </body>
+</html>
